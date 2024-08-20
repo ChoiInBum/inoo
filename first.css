@@ -1,0 +1,52 @@
+.left {
+    position: relative;
+    display: inline-block;
+}
+
+.left .text1 {
+    visibility: hidden;
+    width: 120px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 85%; 
+    left: 12%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.left .text2 {
+    visibility: hidden;
+    width: 120px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 85%; 
+    left: 48%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.left:hover .text1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.left:hover .text2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.right .my:hover {/*after 가상요소*/
+    border-bottom: solid 2px #ff6a6a;
+ }

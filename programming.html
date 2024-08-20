@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <title>Final Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="programming.css" />
+    <link rel="stylesheet" href="first.css" />
+    <link rel="stylesheet" href="in1.css" />
+    <link rel="stylesheet" href="in2.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header style="background-color: rgb(30, 115, 190)">
+      <div class="container">
+        <h1>
+          <button data-animation-scroll="true" data-target="#main">
+            <a href="index.html">INOO</a>
+          </button>
+        </h1>
+        <nav>
+          <ul>
+            <li>
+              <button data-animation-scroll="true" data-target="#interest">
+                Speciality
+              </button>
+            </li>
+            <li>
+              <button data-animation-scroll="true" data-target="#features">
+                News
+              </button>
+            </li>
+            <li>
+              <button data-animation-scroll="true" data-target="#interest">
+                
+              </button>
+            </li>
+            <li>
+              <button
+                data-animation-scroll="true"
+                data-target="#contact"
+                class="b"
+              >
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- //end header -->
+    <!-- main -->
+    <main id="main"></main>
+    <!-- //end Main -->
+
+    <section id="interest" class="interest">
+      <div class="container">
+        <div class="title">
+          <h4>Speciality</h4>
+          <h2>Property</h2>
+        </div>
+        <div class="interest-me">
+          <div class="interest-inner1">
+            <a href="#"><img src="images/community.jpg" alt="" /></a>
+            <strong>First</strong>
+            <h3>Community</h3>
+          </div>
+          <div class="interest-inner2">
+            <a href="#"><img src="images/develop.jpg" alt="" /></a>
+            <strong>Second</strong>
+            <h3>Development</h3>
+          </div>
+          <div class="interest-inner3">
+            <a href="#"
+              ><img src="images/readability.jpg" alt=""
+            /></a>
+            <strong>Third</strong>
+            <h3>Readability</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end About Me -->
+    <!-- What I Do -->
+    <section id="features" class="do">
+      <div class="container">
+        <div class="title">
+          <h4>News</h4>
+          <h2>Articles</h2>
+        </div>
+        <div class="do-me">
+          <a
+            href="https://biz.newdaily.co.kr/site/data/html/2024/08/08/2024080800151.html"
+            target="_blank"
+          >
+            <div id="do-inner1">
+              <p id="t1">
+                [데일리 IT 단신] SKT, 개발자 AI 기술 공유 ‘데보션 테크데이’ 개최
+                外
+              </p>
+              <div class="overlay">
+                <p style="color: #fff; font-weight: bold">
+                  자세히 보기<img src="./images/up_right.png" />
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.itworld.co.kr/news/346945" target="_blank">
+            <div id="do-inner2">
+              <p id="t2">
+                새로운 자바스크립트가 이전 자바스크립트와 다른 11가지 이유
+              </p>
+              <div class="overlay">
+                <p style="color: #fff; font-weight: bold">
+                  자세히 보기<img src="./images/up_right.png" />
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://www.fortunekorea.co.kr/news/articleView.html?idxno=38533"
+            target="_blank"
+          >
+            <div id="do-inner3">
+              <p id="t3">웹 개발자가 되기 위한 4단계 로드맵</p>
+              <div class="overlay">
+                <p style="color: #fff; font-weight: bold">
+                  자세히 보기<img src="./images/up_right.png" />
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://www.bloter.net/news/articleView.html?idxno=43691"
+            target="_blank"
+          >
+            <div id="do-inner4">
+              <p id="t4">
+                [함께 쓰는 풀리퀘]그 프로그래밍 언어에 담긴 이야기②강
+              </p>
+              <div class="overlay">
+                <p style="color: #fff; font-weight: bold">
+                  자세히 보기<img src="./images/up_right.png" />
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- //end What I Do -->
+    <!-- Background -->
+    <!-- <div class="bg"></div> -->
+    <!-- //end Background-->
+    
+    <script src="programming.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script src="in.js"></script>
+  </body>
+</html>
